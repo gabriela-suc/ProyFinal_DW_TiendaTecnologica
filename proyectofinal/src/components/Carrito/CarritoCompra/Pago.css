@@ -1,0 +1,74 @@
+/* Pago.css */
+.pago-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-pago {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .productos {
+    margin-top: 20px;
+  }
+  
+  .producto-pago {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .producto-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .total-pago {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .btn-pagar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-pagar:hover {
+    background-color: #218838;
+  }
+  

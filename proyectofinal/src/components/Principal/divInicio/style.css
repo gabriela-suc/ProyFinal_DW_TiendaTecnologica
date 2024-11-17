@@ -1,0 +1,81 @@
+/* Logo del navbar */
+.navbar-logo {
+    width: 150px;
+    height: auto;
+  }
+  
+ /* Estilo para el campo de búsqueda */
+  /* Estilo para el campo de búsqueda */
+  .search-bar {
+    background-color: #2d2f33;
+    border: 1px solid #495057;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  /* Botón de buscar */
+  .search-bar::placeholder {
+    color: #c0c0c0;
+  }
+  
+  .search-bar:focus {
+    background-color: #3a3f44;
+    border-color: #d8b194;
+    outline: none;
+  }
+  
+  /* Botón de búsqueda deshabilitado */
+  .btn-outline-light:disabled {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
+  /* Hover para botones del navbar */
+  .nav-link:hover {
+    color: #d8b194; /* Color de texto en hover */
+  }
+  
+  /* Mejora de espaciado y ajustes generales del navbar */
+  .navbar {
+    padding: 15px;
+  }
+  
+  .navbar-nav .nav-item {
+    margin: 0 15px; /* Ajusta el espaciado entre los ítems del menú */
+  }
+  
+  /* Responsividad para pantallas pequeñas */
+  @media (max-width: 992px) {
+    .navbar-nav {
+      margin-bottom: 10px;
+    }
+  
+    .search-bar {
+      width: 100%; /* Para que ocupe todo el ancho en pantallas pequeñas */
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Estilos para el ícono del carrito */
+.carrito {
+    position: relative;
+}
+
+.carrito .fa-shopping-cart {
+    font-size: 1.5rem; /* Tamaño del ícono */
+    color: #ffffff; /* Color blanco */
+}
+
+.cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #d9534f; /* Color rojo para el contador */
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 0.8rem;
+}
+
