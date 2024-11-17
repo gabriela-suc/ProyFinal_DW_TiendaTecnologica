@@ -1,0 +1,40 @@
+/* src/components/Principal/Footer.css */
+
+.footer {
+    background-color: #333; /* Fondo oscuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-link {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+  }
+  
+  .footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .footer-link:focus {
+    outline: none;
+  }
+  

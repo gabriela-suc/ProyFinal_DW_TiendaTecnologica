@@ -1,0 +1,85 @@
+body {
+  background-color: #eaeff1; /* Fondo suave gris claro */
+  color: #2c3e50; /* Texto en tono gris oscuro */
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra sutil */
+  border: none;
+  background-color: #ffffff; /* Fondo blanco para la tarjeta */
+}
+
+.btn-primary {
+  background-color: #3b5998; /* Azul desaturado */
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: rgb(44, 62, 80); /* Azul oscuro elegante al pasar el mouse */
+  transform: scale(1.05); /* Ligeramente más grande */
+}
+
+.text-muted {
+  font-size: 0.9em;
+  color: #7f8c8d; /* Gris medio */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Espaciado más amplio entre elementos */
+}
+
+.card-body {
+  padding: 25px; /* Espacio interno amplio */
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #2c3e50; /* Gris oscuro */
+}
+
+.card .form-control {
+  border-radius: 6px;
+  border: 1px solid #bdc3c7; /* Gris suave */
+  color: #34495e; /* Texto gris oscuro */
+  background-color: #f5f7f9; /* Fondo ligeramente gris */
+}
+
+.card .form-control:focus {
+  border-color: #3b5998; /* Azul desaturado al enfocar */
+  box-shadow: 0 0 6px rgba(59, 89, 152, 0.4); /* Sombra en azul */
+}
+
+.text-primary {
+  color: #3b5998; /* Azul desaturado */
+  text-decoration: none;
+}
+
+.text-primary:hover {
+  color: #2c3e50; /* Cambia a gris oscuro */
+  text-decoration: underline;
+}
+
+/* Estilo del icono de usuario */
+.user-icon {
+  color: #85a5e9;  /* Color dorado */
+  font-size: 3rem; /* Tamaño ajustado */
+  transition: color 0.3s ease; /* Transición de color suave */
+}
+
+.user-icon:hover {
+  color: #4b7cad; /* Un tono más oscuro de dorado al pasar el cursor */
+}
+
+.btn btn-primary d-flex mx-auto {
+  text-align: center;
+}
+
+
+
+
+  
+  
+  
